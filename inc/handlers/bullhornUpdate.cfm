@@ -3,7 +3,7 @@ local.bDebug = false;
 local.sResults = {"status"=0,"errorMessage"=""};
 
 if(isDefined('form.tRecruiterID')) {
-	local.oRecObj = createObject("component", "fi.CustomTags.recruiters2018");
+	local.oRecObj = createObject("component", "bullhorn");
 
 	//Process local form submission
 	local.sUpdate = local.oRecObj.putRecApiCredentials(argumentcollection = form);
