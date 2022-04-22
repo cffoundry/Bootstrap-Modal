@@ -24,9 +24,7 @@
 	
 </cfscript>
 
-<cfajaximport tags="cfform,cftextarea" />
-
-<cfinclude template="/fi/includes/html_header.cfm">
+<cfinclude template="/inc/html_header.cfm">
 		<script>
 			$(document).ready(function(){
 				
@@ -54,7 +52,7 @@
 			});
 		</script>
   <!--End Page Only Script-->
-<cfinclude template="/fi/includes/header.cfm">
+<cfinclude template="/inc/header.cfm">
 	<!--Page Title Bar-->
   <cfoutput>
 		
@@ -68,8 +66,11 @@
       	<div class="col-md-10"> <!---main content--->
         	<div class="row">
           	<!--- Body --->
-          </div> 
-          <br><hr>			
+          	<p>This is a simple, streamlined example of how we use Bootstrap modal windows to collect user 
+          	input and then act based on the data that is provided by the user.</p>
+          	<p>This would typically be our main page content area.</p>
+          	</div> 
+         <br><hr>			
         </div> <!--end main content-->
 
         <div class="col-md-2">
@@ -93,5 +94,5 @@
 		</div>
   <!--Begin Footer-->
   	<br /><br />
-  	<cfinclude template="/fi/includes/footer_rec.cfm">  
+  	<cfinclude template="/inc/footer_rec.cfm">  
   <!--End Footer-->
